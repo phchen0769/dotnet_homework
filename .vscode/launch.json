@@ -10,7 +10,8 @@
             "request": "launch",
             "preLaunchTask": "build",
             // If you have changed target frameworks, make sure to update the program path.
-            "program": "${workspaceFolder}/bin/Debug/net8.0/vscode-remote-try-dotnet.dll",
+            // "program": "${workspaceFolder}/bin/Debug/net8.0/vscode-remote-try-dotnet.dll",
+            "program":"/workspaces/dotnet/MyMvc/bin/Debug/net8.0/MyMvc.dll",
             "args": [],
             "cwd": "${workspaceFolder}",
             "stopAtEntry": false,
@@ -23,7 +24,7 @@
                 "ASPNETCORE_ENVIRONMENT": "Development"
             },
             "sourceFileMap": {
-                "/Views": "${workspaceFolder}/Views"
+                "/Views": "${workspaceFolder}/MyMvc/Views"
             }
         },
         {

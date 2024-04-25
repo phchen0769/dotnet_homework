@@ -5,9 +5,15 @@
             "label": "build",
             "command": "dotnet",
             "type": "process",
+            // "args": [
+            //     "build",
+            //     "${workspaceFolder}/vscode-remote-try-dotnet.csproj",
+            //     "/property:GenerateFullPaths=true",
+            //     "/consoleloggerparameters:NoSummary"
+            // ],
             "args": [
                 "build",
-                "${workspaceFolder}/vscode-remote-try-dotnet.csproj",
+                "${workspaceFolder}/MyMvc/MyMvc.csproj",
                 "/property:GenerateFullPaths=true",
                 "/consoleloggerparameters:NoSummary"
             ],
@@ -17,9 +23,15 @@
             "label": "publish",
             "command": "dotnet",
             "type": "process",
+            // "args": [
+            //     "publish",
+            //     "${workspaceFolder}/vscode-remote-try-dotnet.csproj",
+            //     "/property:GenerateFullPaths=true",
+            //     "/consoleloggerparameters:NoSummary"
+            // ],
             "args": [
                 "publish",
-                "${workspaceFolder}/vscode-remote-try-dotnet.csproj",
+                "${workspaceFolder}/MyMvc/MyMvc.csproj",
                 "/property:GenerateFullPaths=true",
                 "/consoleloggerparameters:NoSummary"
             ],
@@ -29,11 +41,17 @@
             "label": "watch",
             "command": "dotnet",
             "type": "process",
+            // "args": [
+            //     "watch",
+            //     "run",
+            //     "--project",
+            //     "${workspaceFolder}/vscode-remote-try-dotnet.csproj"
+            // ],
             "args": [
                 "watch",
                 "run",
                 "--project",
-                "${workspaceFolder}/vscode-remote-try-dotnet.csproj"
+                "${workspaceFolder}/MyMvc/MyMvc.csproj"
             ],
             "problemMatcher": "$msCompile"
         }
